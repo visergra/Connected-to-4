@@ -1,0 +1,74 @@
+/*Body properties. The score will inherit this properties*/
+
+body {
+    color: #3c5566;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 40px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/*#game-title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 40px 0px;
+}*/
+
+
+#game-board {
+    background: grey;
+    border-radius: 4px;
+    padding: 10px;
+    width: 700px;
+    height: 600px;
+    margin: 0px auto 40px auto;
+    text-align: center;
+}
+
+/*.clearfix {
+    clear: both;
+}*/
+
+/*.row {
+    height: 100%;
+    width: 100%;
+    margin: 5px auto;
+}*/
+
+
+.cell {
+    background: rgba(225, 226, 241, 0.5);
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 80px;
+    float: left;
+    margin: 10px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.black{
+  background-color: black;
+}
+.red{
+  background-color: red;
+}
+#game-over{
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+  position: absolute;
+  top: 300px;
+}
+#game-over div:nth-child(1){
+  display: none;
+}
+#game-over div:nth-child(2){
+  display: none;
+}
